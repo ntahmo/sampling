@@ -8,83 +8,133 @@ The goal of this assignment is to practice developing and evaluating sampling ma
 
 Select one of the scenarios below and design a survey to meet the need(s) outlined in the prompt.
 
-1.	In two to three sentences, describe the purpose of your survey
-2.	Describe your target population, sampling frame, sampling units, and overall sampling strategy.
-3.	Write a 5-10 question survey to address your chosen scenario below.
+1.  In two to three sentences, describe the purpose of your survey
+2.  Describe your target population, sampling frame, sampling units, and overall sampling strategy.
+3.  Write a 5-10 question survey to address your chosen scenario below.
 
 ##### Scenarios
-1.	You work in the Human Resources Department at a large tech company. Over the past few months, the company has been experiencing a high turnover rate across many of its departments, specifically within the entry- and lower-level positions. The company wishes to understand why this turnover is happening, and what changes need to occur to improve employee satisfaction.
-2.	You work for a Canadian national political party during a federal election. Throughout the campaign period, your party has seen relatively high approval ratings, but an opposing party is also polling favorably and may still have a chance to win the election. You are one month away from the election and you want to understand what voters want from your party and its leader in order to maintain your lead and eventually win the election.
-3.	You are a student researcher in the sociology department at the University of Toronto. You are working on a research project that concerns the relationship between music taste and age. This involves both comparisons between different people of different ages and comparisons of the same individual at different ages during their lifetime. You wish to understand to what extent age influences music taste, specifically as it relates to perceptions of popular music. Your results will be written into an academic paper that you hope to publish.
+
+1.  You work in the Human Resources Department at a large tech company. Over the past few months, the company has been experiencing a high turnover rate across many of its departments, specifically within the entry- and lower-level positions. The company wishes to understand why this turnover is happening, and what changes need to occur to improve employee satisfaction.
+2.  You work for a Canadian national political party during a federal election. Throughout the campaign period, your party has seen relatively high approval ratings, but an opposing party is also polling favorably and may still have a chance to win the election. You are one month away from the election and you want to understand what voters want from your party and its leader in order to maintain your lead and eventually win the election.
+3.  You are a student researcher in the sociology department at the University of Toronto. You are working on a research project that concerns the relationship between music taste and age. This involves both comparisons between different people of different ages and comparisons of the same individual at different ages during their lifetime. You wish to understand to what extent age influences music taste, specifically as it relates to perceptions of popular music. Your results will be written into an academic paper that you hope to publish.
 
 ### Part B - Survey Evaluation:
 
 For the **Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33)**, conducted by Statistics Canada find any and all available documentation for the data gathered and identify and describe the survey features indicated below.
 
-1. Sample type
-2. Sample size
-3. Target population
-4. Sampling frame
-5. Survey mode(s) 
-6. Timeline
-7. Response rate
-8. Weights
-9. Data processing
+1.  Sample type
+2.  Sample size
+3.  Target population
+4.  Sampling frame
+5.  Survey mode(s)
+6.  Timeline
+7.  Response rate
+8.  Weights
+9.  Data processing
 10. Cleaning, imputation, etc
 11. Sources of error
 12. Limitations, known biases, etc
 13. Link to documentation and any additional sources used
 
-
 # Your Changes
 
-## Part A - Survey Design: 
+## Part A - Survey Design:
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
-```
-write your answer here...
+
+```         
+This survey aims to understand the main reasons for high turnover among entry- (less than 2 years in the company) and lower-level (not managers or executives) employees across all departments in the company. The survey results will help the Human Resources Department identify areas within the company where changes can be made to improve employee satisfaction.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
-```
-write your answer here...
+
+```         
+- Target population: All current (less than 2 years in the company) and lower-level (not managers or executives) employees across all departmemts in the company.
+- Sampling frame: All individuals registered as full-time and part-time employees through the company human resource information system, excluding company executives and managers.
+- Sampling units: All employees in the sampling frame who are invited to participate in the survey
+- Observational units: Employees who respond to the survey
 ```
 
 Your 5-10 question survey:
-```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+
+```         
+On a scale from 1 (Disagree strongly) to 5 (Agree strongly), indicate how strongly you agree or disgree with the statement
+- Disagree strongly
+- Disagree somewhat
+- Neither disagree nor agree
+- Agree somewhat
+- Agree strongly
+1. I feel I am a valued employee and contributing team member.
+2. In the last 6 months some one has talked to me about my progress.
+3. I know what is expected of me in my job.
+4. My salary is fair for my responsibilities
+5. My supervisor tells me when my work needs improvement and complements when I do my work well.
+6. I am given ample growth and career development opportunities.
+7. I can see a clear path for career growth at this company.
+
+8. How do you feel about the following (select an option below for each benefit) (a) Number of vacation days; (b) Health insurance benefits; (c) Sick leave policy: 
+- Dissatisfied 
+- Neutral
+- Satisfied
+
+8. Which of the following factors would most influence you to continue with the company? (Select up to three.)
+- Pay or compensation
+- Benefits
+- Workload or burnout
+- Manager or team culture
+- Lack of growth or promotion opportunities
+- Lack of learning or training opportunities
+- Role not a good fit
+- Schedule or shift expectations
+- Remote, hybrid, or in-office expectations
+- Other (please specify)
+
+P.S.: I checked for validated employee satisfaction questions before preparing my questions.
 ```
 
 ## Part B - Survey Evaluation:
 
 Identify and describe survey features:
 
-```
-write your answer here
+```         
+1. Sample type: 2-stage stratified random sampling.
+2. Sample size: 24,000
+3. Target population: All individuals 15 years and older who reside. across the ten provinces of Canada, excluding those institutionalized for more than 6 months.
+4. Sampling frame: All houses with a landline and/or cellular telephone number
+5. Survey mode(s): Landline and cellular telephone surveys.
+6. Timeline: 2018-09-04 to 2018-12-28
+7. Response rate: 41.9%
+8. Weights: Bootstrap weights
+9. Data processing: Data are collected from volunteers directly through an electronic questionnaire or computer assisted telephone interviewing and linked to tax and other administrative data. Error detection was done following the Social Survey Processing Environment steps.
+10. Cleaning/quality evaluation: Statisticians assess data for changes over time, verify estimates via cross-tabulation, and compare to other data sources. 
+Imputation: Prediction based on other respondents with similar non-missing responses
+11. Sources of error: Coverage error due to misalignment between the target and sampled population (households without telephones are missing) and non-response
+12. Limitations, known biases, etc: Non-response bias, especially for sensitive data like income; sampling bias from missing houses without a registerd telephone number.
+13. Link to documentation and any additional sources used: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234 
 ```
 
 ## Rubric
 
--	All required components are present and complete **Complete / Incomplete**
--	Choice of sampling strategy for Part A is justified and related to survey purpose **Complete / Incomplete**
--	Information for Part B is complete and correct **Complete / Incomplete**
+-   All required components are present and complete **Complete / Incomplete**
+-   Choice of sampling strategy for Part A is justified and related to survey purpose **Complete / Incomplete**
+-   Information for Part B is complete and correct **Complete / Incomplete**
 
 ## Submission Information
 
 🚨 **Please review our [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md)** 🚨 for detailed instructions on how to format, branch, and submit your work. Following these guidelines is crucial for your submissions to be evaluated correctly.
 
 ### Submission Parameters:
+
+-   Submission Due Date: `23:59 - 14 January 2026`
+-   The branch name for your repo should be: `assignment-2`
+-   What to submit for this assignment:
+    -   This markdown file (a2_survey_design_and_evaluation.md) should be populated and should be the only change in your pull request.
+-   What the pull request link should look like for this assignment: `https://github.com/<your_github_username>/sampling/pull/<pr_id>`
+    -   Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
+
+Checklist: - [X] Create a branch called `assignment-2`. - [X] Ensure that the repository is public. - [X] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them. - [X] Verify that the link is accessible in a private browser window.
 * Submission Due Date: `23:59 - 09 February 2026`
 * The branch name for your repo should be: `assignment-2`
 * What to submit for this assignment:
